@@ -1,0 +1,8 @@
+{
+  "extraPaths": [
+    "withstreamlit",
+    "chatbot",
+    "basics",
+    "agent"
+  ]
+}

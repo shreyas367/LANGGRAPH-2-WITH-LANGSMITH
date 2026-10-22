@@ -1,0 +1,8 @@
+{
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/withstreamlit",
+    "${workspaceFolder}/chatbot",
+    "${workspaceFolder}/basics",
+    "${workspaceFolder}/agent"
+  ]
+}
