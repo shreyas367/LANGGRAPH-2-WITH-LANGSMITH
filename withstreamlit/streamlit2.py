@@ -58,6 +58,7 @@ st.title("Chatbot")
 all_saved_threads = retrieve_all_threads()
 st.session_state['chat_threads'] = all_saved_threads
 
+
 # On fresh load/refresh, load the latest conversation if available
 if 'thread_id' not in st.session_state or 'message_history' not in st.session_state:
     if all_saved_threads:
