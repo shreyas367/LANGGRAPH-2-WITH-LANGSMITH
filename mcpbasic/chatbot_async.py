@@ -10,8 +10,7 @@ from langgraph.graph import END, START, StateGraph
 from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolNode, tools_condition
 
-if sys.platform == "win32":
-    sys.stdout.reconfigure(encoding="utf-8")
+
 
 load_dotenv()
 
@@ -45,6 +44,8 @@ llm = ChatGroq(
 )
 
 llm_with_tools = llm.bind_tools(tools)
+
+
 
 
 class ChatState(TypedDict):
